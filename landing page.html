@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formscape Travel | Decode China</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Basic font styling to match the React setup */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-blue-200">
+
+    <nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-lg border-b border-white/20 shadow-[0_4px_30px_rgba(0,0,0,0.02)]">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="font-bold text-xl tracking-tight text-slate-800">Formscape Travel</div>
+            <a href="#" class="bg-slate-900 text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-slate-800 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200">
+                Explore App
+            </a>
+        </div>
+    </nav>
+
+    <section class="relative pt-40 pb-24 px-6 flex justify-center overflow-hidden bg-white">
+        <div class="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+            <div class="absolute -top-[20%] -right-[10%] w-[600px] h-[600px] rounded-full bg-blue-100/60 blur-[100px] mix-blend-multiply"></div>
+            <div class="absolute top-[20%] -left-[10%] w-[500px] h-[500px] rounded-full bg-orange-100/50 blur-[100px] mix-blend-multiply"></div>
+        </div>
+
+        <div class="max-w-5xl text-center relative z-10">
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 leading-tight text-slate-900">
+                Travel China With <br class="hidden md:block"/> Local Intelligence
+            </h1>
+
+            <p class="text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed font-light">
+                A web-based travel system designed for international visitors to China — helping you discover places, plan itineraries, and navigate local systems.
+            </p>
+
+            <a href="#" class="bg-slate-900 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-slate-800 hover:shadow-xl hover:shadow-slate-900/20 transition-all hover:-translate-y-1 inline-block">
+                Start Planning Your Trip
+            </a>
+
+            <div class="mt-20 w-full rounded-2xl border border-white/50 bg-white/50 p-2 shadow-2xl shadow-blue-900/10 backdrop-blur-sm">
+                <div class="rounded-xl overflow-hidden border border-slate-200 bg-slate-100 relative">
+                    <img src="./screenshot.jpg" alt="Formscape Travel Dashboard" class="w-full h-auto object-cover transform hover:scale-[1.01] transition-transform duration-500" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 flex justify-center bg-white relative z-10">
+        <div class="max-w-4xl text-center">
+            <h2 class="text-3xl font-bold mb-6 tracking-tight">
+                A travel layer designed specifically for China
+            </h2>
+            <p class="text-lg text-slate-500 leading-relaxed font-light">
+                Formscape Travel helps users move from discovering places to making real travel decisions —
+                including where to stay, what to visit, and how to navigate between locations, with future integration of booking partners.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 flex justify-center bg-white relative z-10">
+        <div class="max-w-7xl w-full grid md:grid-cols-2 gap-8">
+
+            <div class="p-10 border border-slate-100 rounded-3xl bg-slate-50/50 hover:bg-white hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon><line x1="9" x2="9" y1="3" y2="18"></line><line x1="15" x2="15" y1="6" y2="21"></line></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Maps That Actually Work in China</h3>
+                <p class="text-slate-500 leading-relaxed">
+                    English + Chinese location data powered by local map systems. Navigate accurately without relying on VPN-dependent services.
+                </p>
+            </div>
+
+            <div class="p-10 border border-slate-100 rounded-3xl bg-slate-50/50 hover:bg-white hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300">
+                <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path><path d="M5 3v4"></path><path d="M19 17v4"></path><path d="M3 5h4"></path><path d="M17 19h4"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-3">AI Trip Planning</h3>
+                <p class="text-slate-500 leading-relaxed">
+                    Generate itineraries based on your interests, with geographically optimized routes to avoid unnecessary travel time.
+                </p>
+            </div>
+
+            <div class="p-10 border border-slate-100 rounded-3xl bg-slate-50/50 hover:bg-white hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300">
+                <div class="w-12 h-12 bg-green-100 text-green-600 rounded-xl flex items-center justify-center mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path><path d="m9 12 2 2 4-4"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Verified Places for Foreign Travelers</h3>
+                <p class="text-slate-500 leading-relaxed">
+                    Hotels and locations curated to ensure accessibility for international visitors.
+                </p>
+            </div>
+
+            <div class="p-10 border border-slate-100 rounded-3xl bg-slate-50/50 hover:bg-white hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300">
+                <div class="w-12 h-12 bg-orange-100 text-orange-600 rounded-xl flex items-center justify-center mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-3">SOS Communication Cards</h3>
+                <p class="text-slate-500 leading-relaxed">
+                    Simple bilingual cards for real-world situations — taxis, restaurants, allergies, and payments.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-slate-900 text-white py-24 px-6 flex justify-center relative z-10 overflow-hidden">
+        <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-500/10 blur-[120px] rounded-full pointer-events-none"></div>
+
+        <div class="max-w-4xl text-center relative z-10">
+            <h2 class="text-4xl font-bold mb-6">
+                Plan → Navigate → Book
+            </h2>
+
+            <p class="text-xl text-slate-300 mb-12 leading-relaxed max-w-2xl mx-auto font-light">
+                Formscape Travel helps users discover where to go and prepares them for real travel decisions.
+                We are integrating booking partners to connect curated itineraries with seamless reservations.
+            </p>
+
+            <div class="space-y-6 text-left max-w-xl mx-auto bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-sm">
+                <div class="flex items-center gap-4">
+                    <div class="bg-green-500/20 p-2 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-green-400"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </div>
+                    <span class="text-lg font-medium">Curated hotels → booking integration</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <div class="bg-green-500/20 p-2 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-green-400"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </div>
+                    <span class="text-lg font-medium">Attractions & landmarks → ticket access</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <div class="bg-green-500/20 p-2 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-green-400"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </div>
+                    <span class="text-lg font-medium">Itinerary-based planning → conversion-ready flow</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 flex justify-center bg-white">
+        <div class="max-w-5xl w-full">
+            <h2 class="text-3xl font-bold text-center mb-16 tracking-tight">How it works</h2>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="flex flex-col items-center">
+                    <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center text-slate-800 font-bold mb-4">1</div>
+                    <p class="font-bold mb-2">Discover</p>
+                    <p class="text-sm text-slate-500">Browse curated places</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center text-slate-800 font-bold mb-4">2</div>
+                    <p class="font-bold mb-2">Plan</p>
+                    <p class="text-sm text-slate-500">Build your itinerary</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center text-slate-800 font-bold mb-4">3</div>
+                    <p class="font-bold mb-2">Navigate</p>
+                    <p class="text-sm text-slate-500">Use local map systems</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center text-slate-800 font-bold mb-4">4</div>
+                    <p class="font-bold mb-2">Book</p>
+                    <p class="text-sm text-slate-500">Reserve hotels & tickets</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-slate-50 border-t border-slate-100 py-24 px-6 flex justify-center">
+        <div class="max-w-3xl text-center">
+            <h2 class="text-3xl font-bold mb-8">Why this exists</h2>
+
+            <blockquote class="text-xl md:text-2xl text-slate-600 leading-relaxed font-light italic">
+                "I built this after watching my non-Chinese partner struggle for a year in China — from unusable maps to Chinese-only apps and confusing booking systems.
+                This product is designed to bridge that gap and guide travelers from discovery to real-world decisions."
+            </blockquote>
+        </div>
+    </section>
+
+</body>
+</html>
